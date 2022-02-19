@@ -527,7 +527,7 @@ public class MainCustomerPanel extends javax.swing.JPanel {
         for (Car car : carDetailsList) {
             Object[] row = new Object[customerTable.getColumnCount()];
 
-            row[0] = car;
+            row[0] = car.getModelnumber();
             row[1] = car.getSerialnumber();
             row[2] = car.getManufacturer();
             row[3] = car.getManufactureyear();
